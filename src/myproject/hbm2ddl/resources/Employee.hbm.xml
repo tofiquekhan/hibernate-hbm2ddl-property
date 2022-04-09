@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+    
+    <hibernate-mapping>
+    <class name="myproject.hbm2ddl.pojo.Employee" table="emp2">
+    <id name="eno" column="eno" length="5" type="int"/>
+    <property name="ename" column="ename" length="10" type="string"/>
+    <property name="esal"  column="esal" length="5" type="float"/>
+    <property name="eaddr" column="eaddr" length="10" type="string"/>
+    </class>
+    
+    </hibernate-mapping>
